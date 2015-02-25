@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97B5D9901A9E21E9002F0FB5 /* AutoImplementor.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 97B5D98F1A9E21E9002F0FB5 /* AutoImplementor.xcscheme */; };
+		97B5D9921A9E21E9002F0FB5 /* AutoImplementor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B5D9911A9E21E9002F0FB5 /* AutoImplementor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97B5D98A1A9E21E9002F0FB5 /* AutoImplementor.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoImplementor.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B5D98E1A9E21E9002F0FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97B5D98F1A9E21E9002F0FB5 /* AutoImplementor.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = AutoImplementor.xcscheme; path = AutoImplementor.xcodeproj/xcshareddata/xcschemes/AutoImplementor.xcscheme; sourceTree = SOURCE_ROOT; };
+		97B5D9911A9E21E9002F0FB5 /* AutoImplementor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoImplementor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		97B5D9821A9E21E9002F0FB5 = {
+			isa = PBXGroup;
+			children = (
+				97B5D98C1A9E21E9002F0FB5 /* AutoImplementor */,
+				97B5D98B1A9E21E9002F0FB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97B5D98B1A9E21E9002F0FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97B5D98A1A9E21E9002F0FB5 /* AutoImplementor.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97B5D98C1A9E21E9002F0FB5 /* AutoImplementor */ = {
+			isa = PBXGroup;
+			children = (
+				97B5D9911A9E21E9002F0FB5 /* AutoImplementor.swift */,
+				97B5D98D1A9E21E9002F0FB5 /* Supporting Files */,
+			);
+			path = AutoImplementor;
+			sourceTree = "<group>";
+		};
+		97B5D98D1A9E21E9002F0FB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97B5D98E1A9E21E9002F0FB5 /* Info.plist */,
+				97B5D98F1A9E21E9002F0FB5 /* AutoImplementor.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97B5D9891A9E21E9002F0FB5 /* AutoImplementor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B5D9951A9E21E9002F0FB5 /* Build configuration list for PBXNativeTarget "AutoImplementor" */;
+			buildPhases = (
+				97B5D9871A9E21E9002F0FB5 /* Sources */,
+				97B5D9881A9E21E9002F0FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoImplementor;
+			productName = AutoImplementor;
+			productReference = 97B5D98A1A9E21E9002F0FB5 /* AutoImplementor.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97B5D9831A9E21E9002F0FB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ravi Vooda";
+				TargetAttributes = {
+					97B5D9891A9E21E9002F0FB5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 97B5D9861A9E21E9002F0FB5 /* Build configuration list for PBXProject "AutoImplementor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 97B5D9821A9E21E9002F0FB5;
+			productRefGroup = 97B5D98B1A9E21E9002F0FB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97B5D9891A9E21E9002F0FB5 /* AutoImplementor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97B5D9881A9E21E9002F0FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B5D9901A9E21E9002F0FB5 /* AutoImplementor.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97B5D9871A9E21E9002F0FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B5D9921A9E21E9002F0FB5 /* AutoImplementor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		97B5D9931A9E21E9002F0FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		97B5D9941A9E21E9002F0FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		97B5D9961A9E21E9002F0FB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = AutoImplementor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		97B5D9971A9E21E9002F0FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = AutoImplementor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97B5D9861A9E21E9002F0FB5 /* Build configuration list for PBXProject "AutoImplementor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B5D9931A9E21E9002F0FB5 /* Debug */,
+				97B5D9941A9E21E9002F0FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B5D9951A9E21E9002F0FB5 /* Build configuration list for PBXNativeTarget "AutoImplementor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B5D9961A9E21E9002F0FB5 /* Debug */,
+				97B5D9971A9E21E9002F0FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97B5D9831A9E21E9002F0FB5 /* Project object */;
+}
